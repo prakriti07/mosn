@@ -2,6 +2,9 @@ dist: trusty
 sudo: required
 
 language: go
+arch:
+  - amd64
+  - arm64
 go:
   - 1.12.7
 
